@@ -42,7 +42,7 @@
     </style>
   </head>
   <body class="font-poppins">
-    <header class="bg-color-prim">
+    <header id="header" class="bg-color-prim">
       <!-- NAVIGATION BAR -->
       <div class="md:container md:mx-auto md:px-16">
         <nav>
@@ -241,9 +241,9 @@
     <!-- MAIN SECTION -->
     <main class="md:container md:mx-auto md:px-16">
       <!-- FEATURED SECTION -->
-      <section class="my-16 space-y-1">
+      <section class="my-12 space-y-1">
         <!-- SECTION TITLE -->
-        <h1 class="text-center text-2xl lg:text-5xl font-semibold">
+        <h1 class="text-center text-3xl lg:text-5xl font-semibold">
           Featured Bikes of This Year
         </h1>
         <p class="text-center text-sm font-semibold text-color-sec">
@@ -252,7 +252,7 @@
         <hr class="mx-auto border-[1px] border-color-sec w-[50px]" />
         <!-- FEATURED BIKES CONTAINER -->
         <div
-          class="flex flex-col md:flex-row gap-6 lg:gap-5 justify-around items-center py-12 px-16 md:px-0"
+          class="flex flex-col md:flex-row gap-6 lg:gap-5 justify-evenly items-center py-12 px-16 md:px-0"
         >
           <div>
             <img
@@ -279,7 +279,76 @@
       </section>
 
       <!-- LATEST BIKES -->
-      <section class="my-16"></section>
+      <section class="my-12">
+        <h1 class="text-center text-3xl lg:text-5xl font-semibold">
+          Latest News
+        </h1>
+        <!-- LATEST BIKES CONTAINER -->
+        <div
+          class="flex flex-col md:flex-row gap-6 lg:gap-5 justify-evenly items-center py-12 px-16 md:px-0"
+        >
+          <!-- CARD 1 -->
+          <div class="card card-compact w-72 md:w-80 bg-base-100 shadow-md">
+            <figure>
+              <img src="images/others/latest1.png" alt="" />
+            </figure>
+            <div class="card-body space-y-2">
+              <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="card-actions justify-end">
+                <button
+                  class="btn text-sm rounded-md border-color-sec border-[1px] text-color-sec font-medium bg-transparent px-5 mr-auto hover:bg-color-sec hover:text-white"
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- CARD 2 -->
+          <div class="card card-compact w-72 md:w-80 bg-base-100 shadow-md">
+            <figure>
+              <img src="images/others/latest2.png" alt="" />
+            </figure>
+            <div class="card-body space-y-2">
+              <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="card-actions justify-end">
+                <button
+                  class="btn text-sm rounded-md border-color-sec border-[1px] text-color-sec font-medium bg-transparent px-5 mr-auto hover:bg-color-sec hover:text-white"
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- CARD - 3 -->
+          <div class="card card-compact w-72 md:w-80 bg-base-100 shadow-md">
+            <figure>
+              <img src="images/others/latest3.png" alt="" />
+            </figure>
+            <div class="card-body space-y-2">
+              <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="card-actions justify-end">
+                <button
+                  class="btn text-sm rounded-md border-color-sec border-[1px] text-color-sec font-medium bg-transparent px-5 mr-auto hover:bg-color-sec hover:text-white"
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
